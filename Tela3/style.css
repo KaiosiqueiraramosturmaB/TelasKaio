@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 300px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.header {
+    background-color: red;
+    color: white;
+    padding: 10px 0;
+    border-radius: 10px 10px 0 0;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.order, .info {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.order p, .info p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.btn-retirar {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btn-retirar:hover {
+    background-color: darkred;
+}
